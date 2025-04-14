@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 def load_best_portfolios():
     portfolios = {}
     for key in ['10_Years', '5_Years', '3_Years', '2_Years']:
-        with open(f"path/best_portfolios_{key}.json", 'r') as f:
+        with open(f"results/best_portfolios_{key}.json", 'r') as f:
             portfolios[key] = json.load(f)
     return portfolios
 
