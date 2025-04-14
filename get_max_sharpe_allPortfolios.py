@@ -26,7 +26,7 @@ from itertools import combinations
 # we set any amount of tickers in here
 starting_tickers = ['PLTR', 'COIN', 'AAPL', 'NVDA', 'TSLA', 'MCD', 'KO', 'TSM',
                     'GE', 'VOO', 'SCHD', 'VTI', 'BTC-USD', 'XRP-USD', 'VOO', 'SCHD', 'VTI',
-                    'META', 'AMZN', 'GLD', 'MSFT', 'AMD', 'TQQQ']
+                    'META', 'AMZN', 'GLD', 'SLV', 'MSFT', 'AMD', 'TQQQ']
 
 # Download full price history
 prices = yf.download(starting_tickers, start='2014-12-31', end='2025-01-01', progress=False)['Close']
