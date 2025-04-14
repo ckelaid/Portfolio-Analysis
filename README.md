@@ -7,6 +7,6 @@ Exploring Portfolios based on stock tickers to generate Max Sharpe and associate
     - The app is available at: https://portfolio-returns-mc.streamlit.app/ - please allow 10-15 seconds for the simulation to run (10,000 simulations)
     - **NOTE**: The simulated returns assume the market will continue behaving as it has in the time_horizon of the selected Portfolio (i.e., the return distribution for the *10_Year* Optimal Portfolio is generated using the mean daily returns and volatility of the assets during the 10-year time frame - in this case 2015-2024.)
     - **NEXT STEPS**: Looking to include scenario-base modeling, such as market crashes and hihg volatility priods - stay tuned...
-    - 
+      
       
 
